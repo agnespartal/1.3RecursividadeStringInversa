@@ -8,6 +8,7 @@ public class StringInversa {
 	
 	public String inversor(String palavra, int tamanho) {
 		
+		//condiçao de parada
 		if (tamanho == 0) {
 			return "";
 		} else {
